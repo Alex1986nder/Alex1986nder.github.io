@@ -4,10 +4,11 @@ import { logIn, AUTHENTICATE } from "../action";
 
 
 export function* authenticateSaga(action){
-  const {email, password} = action.payload;
-    const success = yield call(serverLogin, email, password);
+  // const {email, password} = action.payload;
+    // const success = yield call(serverLogin, email, password);
+    const success = true
   if (success){
-    yield put(logIn(success))
+    yield put(logIn())
   }
 }
 
