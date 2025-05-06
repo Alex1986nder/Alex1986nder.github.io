@@ -1,7 +1,7 @@
 {
   "name": "taxi",
   "version": "0.1.0",
-  "homepage": "https://Alex1986nder.github.io/loft_taxi/",
+  "homepage": "https://Alex1986nder.github.io",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
