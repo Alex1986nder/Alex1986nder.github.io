@@ -9,8 +9,9 @@
  :heavy_check_mark:  построение маршрута на карте,         
  :heavy_check_mark:  флаг авторизации и "платежные" данные сохраняются в localstorage,    
  :heavy_check_mark:  для работы с картой использовался сервис mapbox.
- 
 
+Логин: test@test.com Пароль: 123123 
+ 
 #### Стек технологий: :briefcase:
 :small_blue_diamond:	React.js
 :small_blue_diamond:	react-router
