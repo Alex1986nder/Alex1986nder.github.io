@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+<h1 style="color:#ADFF2F;" >Учебный проект курса "React.js" в Loftschool :mortar_board:</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+:point_right: **[**"Приложение для заказа такси"**](https://alex1986nder.github.io/)** :open_file_folder:
 
-## Available Scripts
+### Реализован следующий функционал: 
 
-In the project directory, you can run:
+ :heavy_check_mark:  авторизация, заполнение "платежных" данных с валидацией,    
+ :heavy_check_mark:  запрос на построение маршрута по заданным адресам,       
+ :heavy_check_mark:  построение маршрута на карте,         
+ :heavy_check_mark:  флаг авторизации и "платежные" данные сохраняются в localstorage,    
+ :heavy_check_mark:  для работы с картой использовался сервис mapbox.
+ 
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Стек технологий: :briefcase:
+:small_blue_diamond:	React.js
+:small_blue_diamond:	react-router
+:small_blue_diamond:	Redux
+:small_blue_diamond:	redux-saga
+:small_blue_diamond:	Material UI
+:small_blue_diamond:	redux-actions
+:small_blue_diamond:	CSS-modules
+:small_blue_diamond:	Mapbox API
+:small_blue_diamond:	Webpack
