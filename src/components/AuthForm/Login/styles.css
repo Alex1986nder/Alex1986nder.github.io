@@ -1,0 +1,82 @@
+body {
+	/* background-color: #000 ;
+	background: url(../../../assets/images/logo_1.svg) center top, url(../../../assets/images/map.png) ;
+	background-color: #000 ;
+	background-repeat: no-repeat; */
+}
+/* header {
+	display: none;
+} */
+
+a {
+  text-decoration: none;
+} 
+
+h2 {
+ text-align: center;
+}
+.Unauthorized{
+	height: 100vh; width: 100vw;
+	display: grid;
+	grid-template-columns: clamp(240px, 40%, 500px) 1fr;
+	position: absolute;
+
+}
+
+.Unauthorized__block{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+		position: relative;
+}
+
+.Unauthorized__block[data-name='logo']{
+	background: #1C1A19;
+}
+
+.Unauthorized__block[data-name='form'] img{
+	width: 100%; height: 100%;
+	object-fit: cover;
+	object-position: center;
+	user-select: none;
+	pointer-events: none;
+	position: absolute;
+	left: 50%;top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+}
+
+
+
+.AuthForm__container{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	gap: 1em;
+	max-width: 300px;
+	background: #fff;
+	padding: 4em 1em;
+	border-radius: 1em;
+	width: 100%; max-width: 500px;
+}
+
+form {
+  display: flex;
+	flex-direction: column;
+  margin: 0 auto;
+	gap: 1em;
+	width: 100%;
+}
+
+.AuthForm input{
+	border: none;
+	display: block;
+	width: 100%;
+	border-bottom: 2px solid #E4E4E4;
+}
+
+.reg {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
